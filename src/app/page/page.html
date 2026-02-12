@@ -1,4 +1,4 @@
 <div id="page-container">
-  <label id="page-label" for="page">{{ page_title() }} </label>
+  <label id="page-label" for="page">{{ page$ |async}} </label>
   <textarea class="page-text" name="page" id="page">{{page_content()}}</textarea>
 </div>
